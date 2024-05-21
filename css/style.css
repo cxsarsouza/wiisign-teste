@@ -1380,6 +1380,16 @@ footer {
     align-items: center;
 }
 
+.c-center-b{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.w-images{
+    width: 100%;
+}
+
 .h2-main{
     text-align: center;
     font-size: 36px;
@@ -1587,6 +1597,16 @@ footer {
         padding: 40px 20px;
         color: #fff;
     }
+    .w-images{
+        width: 200px;
+    }
+    
+    .c-center-b{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+    
 }
 
 @media screen and (max-width: 570px) {
