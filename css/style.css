@@ -541,6 +541,10 @@ a:focus {
     -moz-transition: all .5s ease-in-out;
     -ms-transition: all .5s ease-in-out;
     -o-transition: all .5s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .sec1-item.s1,
@@ -1518,4 +1522,131 @@ footer {
     font-weight: 600;
     text-align: center;
     padding-bottom: 0px;
+}
+
+.row-inverse{
+    --bs-gutter-x: 1.5rem;
+}
+
+.p-left{
+    text-align: left;
+}
+
+.t-center{
+    text-align: center;
+}
+
+.p-formaliza{
+    background-color: #0058d8;
+    border-radius: 5px;
+    padding: 20px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 19px;
+    margin-top: 25px;
+    max-width: 900px;
+}
+
+@media screen and (max-width: 1200px) {
+    .img-main {
+        width: 340px;
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+    .h2-main {
+        padding-top: 70px;
+        font-size: 30px;
+    }
+    .contact-form input.form-control, .contact-form textarea.form-control {
+        padding: 13px 14px;
+        font-size: 16px;
+    }
+    .p-main {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .row-inverse{
+        flex-direction: column-reverse;
+    }
+    .h2-main {
+        padding-top: 70px;
+    }
+    .sec3-content h3 {
+        padding-top: 40px;
+        text-align: center;
+    }
+    .p-left{
+        text-align: center;
+    }
+    .bg-image {
+        background-image: url(../img/bg-faca-mob.png);
+    }
+    .faca {
+        padding: 40px 20px;
+        color: #fff;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .ass {
+        height: 100%;
+        padding: 60px 20px;
+    }
+    .card-ass {
+        background-color: #fff;
+        padding: 30px 20px;
+        width: 350px;
+        max-height: 600px;
+    }
+    .card-certo p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .img-main {
+        width: 340px;
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+    .h2-main {
+        padding-top: 70px;
+        font-size: 30px;
+    }
+    .contact-form input.form-control, .contact-form textarea.form-control {
+        padding: 13px 14px;
+        font-size: 16px;
+    }
+    .p-main {
+        font-size: 14px;
+    }
+    .p-formaliza{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .h2-main {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .img-main {
+        width: 290px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .card-ass {
+        background-color: #fff;
+        padding: 30px 20px;
+        width: 320px;
+        max-height: 600px;
+    }
+    .btn {
+        padding: 12px 25px;
+    }
 }
